@@ -21,6 +21,7 @@ def is_valid_smiles(smiles):
     except:
         return False
 
+# Computes the properties
 def compute_properties(smiles):
     try:
         mol = Chem.MolFromSmiles(smiles)
